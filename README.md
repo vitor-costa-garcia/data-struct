@@ -45,27 +45,26 @@ Feitos em C++, C e Python.
 | Acyclic Graph               |        |      |     |
 
 ## Algoritmos de ordenação
-|                  | Python | C++ | C   |
-|------------------|--------|-----|-----|
-| Bubble Sort      |        |     |     |
-| Selection Sort   |        |     |     |
-| Insertion Sort   |        |     |     |
-| Merge Sort       |        |     |     |
-| Quick Sort       |        |     |     |
-| Heap Sort        |        |     |     |
-| Radix Sort       |        |     |     |
+|                  | Python |  C++ | C   |
+|------------------|--------|------|-----|
+| Bubble Sort      |  Done  | Done |     |
+| Selection Sort   |        |      |     |
+| Insertion Sort   |        |      |     |
+| Merge Sort       |        |      |     |
+| Quick Sort       |        |      |     |
+| Heap Sort        |        |      |     |
+| Radix Sort       |        |      |     |
 
 ## Algoritmos de busca
-|                                   | Python | C++ | C   |
-|-----------------------------------|--------|-----|-----|
-| Busca Linear                      |        |     |     |
-| Busca Binária                     |        |     |     |
-| Busca em Profundidade (DFS)       |        |     |     |
-| Busca em Largura (BFS)            |        |     |     |
-| Busca A*                          |        |     |     |
-| Busca em Grafo com Dijkstra       |        |     |     |
-| Busca em Grafo com Bellman-Ford   |        |     |     |
-| Busca Binária em Árvores de Busca |        |     |     |
+|                                   | Python | C++  | C   |
+|-----------------------------------|--------|------|-----|
+| Busca Binária                     |  Done  | Done |     |
+| Busca em Profundidade (DFS)       |        |      |     |
+| Busca em Largura (BFS)            |        |      |     |
+| Busca A*                          |        |      |     |
+| Busca em Grafo com Dijkstra       |        |      |     |
+| Busca em Grafo com Bellman-Ford   |        |      |     |
+| Busca Binária em Árvores de Busca |        |      |     |
 
 
 
