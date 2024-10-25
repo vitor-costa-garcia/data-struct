@@ -7,7 +7,7 @@ Feitos em C++, C e Python.
 |-----------------------------|--------|------|-----|
 | Linked List                 |        | Done |     |
 | Doubly Linked List          |        |      |     |
-| Circular Linked List        |        |      |     |
+| Circular Linked List        |        | Done |     |
 | Doubly Circular Linked List |        |      |     |
 
 ### Pilhas
