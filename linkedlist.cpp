@@ -41,11 +41,12 @@ class LinkedList{
                 oldTempNode = tempNode;
                 tempNode = tempNode -> next;
             }
-
-            Node* newNode = new Node{tempNode, num};
             
             if(oldTempNode != nullptr){
+                Node* newNode = new Node{tempNode, num};
                 oldTempNode -> next = newNode;
+            } else {
+                insertAtBeginning(num);
             }
         }
         
