@@ -6,7 +6,7 @@ Feitos em C++, C e Python.
 |                             | Python | C++  |  C  |
 |-----------------------------|--------|------|-----|
 | Linked List                 |        | Done |     |
-| Doubly Linked List          |        |      |     |
+| Doubly Linked List          |        | Done |     |
 | Circular Linked List        |        | Done |     |
 | Doubly Circular Linked List |        |      |     |
 
