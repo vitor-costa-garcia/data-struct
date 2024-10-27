@@ -13,8 +13,8 @@ Feitos em C++, C e Python.
 ### Pilhas
 |                             | Python | C++  |  C  |
 |-----------------------------|--------|------|-----|
-| Static Stack                |        |      |     |
-| Dynamic Stack               |        |      |     |
+| Static Stack                |        | Done |     |
+| Dynamic Stack               |        | Done |     |
 
 ### Filas
 |                             | Python | C++  |  C  |
