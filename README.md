@@ -19,7 +19,7 @@ Feitos em C++, C e Python.
 ### Filas
 |                             | Python | C++  |  C  |
 |-----------------------------|--------|------|-----|
-| Queue                       |        |      |     |
+| Queue                       |        | Done |     |
 | Circular Queue              |        |      |     |
 | Priority Queue              |        |      |     |
 | Double-Ended Queue          |        |      |     |
