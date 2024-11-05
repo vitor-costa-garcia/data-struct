@@ -20,7 +20,7 @@ Feitos em C++, C e Python.
 |                             | Python | C++  |  C  |
 |-----------------------------|--------|------|-----|
 | Queue                       |        | Done |     |
-| Circular Queue              |        |      |     |
+| Circular Queue              |        | Done |     |
 | Priority Queue              |        |      |     |
 | Double-Ended Queue          |        |      |     |
 
