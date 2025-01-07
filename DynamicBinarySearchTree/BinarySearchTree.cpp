@@ -162,7 +162,7 @@ void BinaryTree<T>::show(){
 
     int counter[] = {0, 0};
     for(int i = 0; i < max_nodes; i++){
-        cout << arr[i] << " ";
+        arr[i]!=-1 ? cout << arr[i] << " " : cout << "X ";
         if(i == counter[0]){
             cout << endl;
             counter[1]++;
