@@ -21,7 +21,7 @@ namespace bt
                 tree = new T[size];
                 filled = new int[size];
 
-                for(int i = 1; i <= depth; i++){ 
+                for(int i = 0; i <= size; i++){ 
                     filled[i] = 0;
                 }
             };
@@ -60,14 +60,14 @@ namespace bt
                 }
             }
 
-            T* tree;
+            bool find(T value){
+                
+            }
+
         private:
             T get_successor(int index){
                 int sup = index*2+1;
                 index = index*2+1;
-                if(index > size){
-                    return;
-                }
                 while(index < size && filled[index-1]){
                     sup = index;
                     index = index * 2;
@@ -83,9 +83,11 @@ namespace bt
                 } else if(!filled[currIndex*2-1] && filled[currIndex*2]) {
                     tree[currIndex-1] = tree[currIndex*2];
                     recursive_pop(currIndex*2);
+                    filled[currIndex*2] = 0;
                 } else if(filled[currIndex*2-1] && !filled[currIndex*2]) {
                     tree[currIndex-1] = tree[currIndex*2-1];
                     recursive_pop(currIndex*2-1);
+                    filled[currIndex*2-1] = 0;
                 } else {
                     filled[currIndex-1] = 0;
                     return;
@@ -111,6 +113,7 @@ namespace bt
             int depth;
             int size;
             int* filled;
+            T* tree;
     };
 }
 
